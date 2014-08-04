@@ -1,0 +1,126 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+body{
+	font-family: Helvetica, Sans-serif ;
+}
+#wrap{
+	width: 996px;
+	height: 1995px;
+	margin: 0 auto;
+	background: url(Main_bg.jpg) no-repeat;
+}
+#title{
+	position:absolute;
+	top: 167px;
+	left:282px;
+	font-size: 27px;
+	color: #fff;
+}
+#desc{
+	position:absolute;
+	top: 238px;
+	left: 214px;
+	height: 113px;
+	width: 490px;
+	background: url(desc.jpg) no-repeat;
+	padding:7px 40px 0px 5px;
+}
+#desc h2{
+	font-size: 17px;
+	color: #003399;
+	text-align:right;
+	font-weight:bold;
+	line-height:20px;
+}
+.reg{
+	position:absolute;
+	top:220px;
+	left:730px;
+	width:255px;
+	height:173px;
+	background-color: #0088d6;
+	border: 2px solid#fff;
+	border-radius: 22px;
+	box-shadow: 1px 1px 1px 1px #000;
+	padding:10px 10px;
+	color:#fff;
+}
+#reg2{
+	top: 1295px;
+}
+.titleText{
+	text-transform: uppercase;
+	font-size:22px;
+	font-weight:bold;
+	text-align:center;
+}
+.formArea{
+	width: 229px;
+	margin:0 auto;
+}
+.reg input[type="text"]{
+	margin:5px;
+	border: 1px solid orange;
+}
+.reg label{
+	font-size: 12px;
+	text-align: right;
+}
+.reg input[type="submit"]{
+	position:relative;
+	top: 12px;
+	left:67px;
+	border:none;
+	width:250px;
+	height:45px;	
+	background: url(regButton.jpg) no-repeat;
+}
+.ps{
+	padding-top:18px;
+	font-size: 11px;
+}
+#schedule{
+	position:absolute;
+	top: 462px;
+	left: 370px;
+}
+#schedule h3{
+	color: #fff;
+	font-size: 26px;
+	text-shadow: 1px 1px #000;
+	margin-bottom: 45px;
+	text-outline: 1px 1px #fff;
+}
+.title{
+	color: #009966;
+	font-size: 18px;
+}
+#schedule ul{
+	list-style-type:none;
+	color:#003399;
+}
+#more{	
+	position: absolute;
+	top: 764px;
+	left: 370px;
+}
+#more h4{
+	color: #fff;
+	font-size: 26px;
+	text-shadow: 1px 1px #000;
+	margin-bottom: 45px;
+	text-outline: 1px 1px #fff
+}
+#more p{
+	color:#003399;
+}
+
+
